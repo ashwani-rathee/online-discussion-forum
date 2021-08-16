@@ -381,3 +381,76 @@ footer {
   margin-block: 5px;
   padding: 5px;
 }
+
+/* ####################################### */
+
+/* details.html  */
+
+.head {
+  display: flex;
+  background-color: #2c2c2c;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.authors {
+  flex: 20%;
+}
+
+.content {
+  flex: 80%;
+}
+
+.body {
+  display: flex;
+  background-color: #111314;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.body .authors .username {
+  font-size: 20px;
+}
+
+.body .authors img {
+  max-width: 50px;
+  max-height: 80px;
+}
+
+.body .content .comment button {
+  border: none;
+  padding: 10px;
+  font-weight: bolder;
+  box-shadow: 4px 6px #fff;
+  cursor: pointer;
+  float: right;
+}
+
+/* comment  */
+
+.comment-area {
+  margin-top: 50px;
+}
+
+.comment-area textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  margin-block: 10px;
+}
+
+.comment-area input {
+  float: right;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.comment-area input:hover {
+  border: solid 1px #000;
+}
+
+.comments-container {
+  margin-top: 50px;
+}
