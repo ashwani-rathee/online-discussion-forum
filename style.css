@@ -247,3 +247,24 @@ header {
     margin-top: 5px;
   }
 }
+
+/* Forum info  */
+.forum-info {
+  padding: 20 px;
+  background-color: #111314;
+}
+
+.chart {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* footer  */
+
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #52057b;
+  display: block;
+  text-align: center;
+}
