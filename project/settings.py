@@ -27,7 +27,7 @@ SECRET_KEY = 'mj16$30&s%(@9(k1-zuo2=s25p#i$matld^(6eje4co+@llx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://discussionforumwost.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['discussionforumwost.herokuapp.com','127.0.0.1']
 
 
 # Application definition
